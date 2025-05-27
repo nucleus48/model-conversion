@@ -24,4 +24,4 @@ if numpy.allclose(
 else:
     print("Something wrong with Pytorch --> TfLite")
 
-edge_model.export("face-recognition.tflite")
+edge_model.export("./face-recognition.tflite")
